@@ -1,5 +1,5 @@
 import React from 'react'
-import { AttachMoney, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons'
+import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons'
 import './sidebar.css'
 
 export default function Sidebar() {
@@ -39,7 +39,7 @@ export default function Sidebar() {
                             Transactions
                         </li>
                         <li className="sidebarListItem">
-                            <TrendingUp className="sidebarIcon" />
+                            <BarChart className="sidebarIcon" />
                             Reports
                         </li>
                     </ul>
