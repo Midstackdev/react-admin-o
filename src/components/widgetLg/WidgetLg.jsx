@@ -10,17 +10,20 @@ export default function widgetLg() {
         <div className="widgetLg">
             <h3 className="widgetLgTitle">Latest Transactions</h3>
             <table className="widgetLgtable">
-                <tr className="widgetLgTr">
-                    <th className="widgetLgTh">Customer</th>
-                    <th className="widgetLgTh">Date</th>
-                    <th className="widgetLgTh">Amount</th>
-                    <th className="widgetLgTh">Satus</th>
-                </tr>
+                <thead>
+                    <tr className="widgetLgTr">
+                        <th className="widgetLgTh">Customer</th>
+                        <th className="widgetLgTh">Date</th>
+                        <th className="widgetLgTh">Amount</th>
+                        <th className="widgetLgTh">Satus</th>
+                    </tr>
+                </thead>
+                <tbody>
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://images.unsplash.com/photo-1619086311112-f70682597d32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80" 
                             alt="" className="widgetImg" 
-                        />
+                            />
                         <span className="widgetLgName">Susan Doe</span>
                     </td>
                     <td className="widgetLgDate">2 June 2021</td>
@@ -33,7 +36,7 @@ export default function widgetLg() {
                     <td className="widgetLgUser">
                         <img src="https://images.unsplash.com/photo-1619086311112-f70682597d32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80" 
                             alt="" className="widgetImg" 
-                        />
+                            />
                         <span className="widgetLgName">Susan Doe</span>
                     </td>
                     <td className="widgetLgDate">2 June 2021</td>
@@ -46,7 +49,7 @@ export default function widgetLg() {
                     <td className="widgetLgUser">
                         <img src="https://images.unsplash.com/photo-1619086311112-f70682597d32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80" 
                             alt="" className="widgetImg" 
-                        />
+                            />
                         <span className="widgetLgName">Susan Doe</span>
                     </td>
                     <td className="widgetLgDate">2 June 2021</td>
@@ -59,7 +62,7 @@ export default function widgetLg() {
                     <td className="widgetLgUser">
                         <img src="https://images.unsplash.com/photo-1619086311112-f70682597d32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80" 
                             alt="" className="widgetImg" 
-                        />
+                            />
                         <span className="widgetLgName">Susan Doe</span>
                     </td>
                     <td className="widgetLgDate">2 June 2021</td>
@@ -68,6 +71,7 @@ export default function widgetLg() {
                         <Button type="Approved" />
                     </td>
                 </tr>
+                </tbody>
             </table>
         </div>
     )
