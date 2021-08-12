@@ -18,6 +18,11 @@ ul {
   flex: 4;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

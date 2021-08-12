@@ -9,7 +9,7 @@ export default function User() {
         <div className="user">
             <div className="userTitileContainer">
                 <h1 className="userTitle">Edit User</h1>
-                <Link to="/user/new">
+                <Link to="/users/new">
                     <button className="userAddButton">Create</button>
                 </Link>
             </div>

@@ -50,6 +50,23 @@ export const userData = [
    
   ];
 
+  export const productData = [
+    {
+      name: 'Jan',
+      "Sales": 4000,
+    },
+    {
+      name: 'Feb',
+      "Sales": 6000,
+    },
+    {
+      name: 'Mar',
+      "Sales": 5000,
+    },
+    
+   
+  ];
+
   export const userRows = [
     { 
         id: 1, 
@@ -130,6 +147,90 @@ export const userData = [
         email: 'snow@gm.com', 
         status: 'active', 
         transaction: '$120.00', 
+    },
+    
+  ];
+
+  export const productRows = [
+    { 
+        id: 1, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 2, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 3, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 4, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 5, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 6, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 7, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 8, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 9, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
+    },
+    { 
+        id: 10, 
+        name: 'Apple Airpods', 
+        img: 'https://www.techrepublic.com/a/hub/i/r/2017/12/10/accdb699-9cf4-45b9-b0a7-cc4c79dd580f/resize/1200x/6879ece7bfa81e98e7e7e64827cce37e/airpods.jpg', 
+        stock: 134, 
+        status: 'active', 
+        price: '$120.00', 
     },
     
   ];
